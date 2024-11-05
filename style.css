@@ -1,0 +1,181 @@
+/* Page Background */
+body {
+    background-color: #f0f0f5;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+/* Outer Container */
+.outer-container {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+/* Title Styling */
+.title {
+    font-size: 2rem;
+    color: #333;
+    /* text-align: center; */
+    margin-bottom: 1.5rem;
+}
+
+/* Content Container */
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    text-align: left;
+}
+
+/* Text Content */
+.text-content {
+    max-width: 60%;
+    color: #555;
+    text-align: left;
+}
+
+/* p {
+    font-weight: bold;
+} */
+
+/* Link Styling */
+.link {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #104e8b;
+    text-decoration: underline;
+}
+
+/* Image Container */
+.image-container img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styling */
+.action-button1 {
+    display: block;
+    width: 200px;
+    /* margin: 1.5rem auto; */
+    padding: 0.75rem;
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.action-button2 {
+    display: block;
+    width: 200px;
+    margin: 5px 30px;
+    padding: 0.75rem;
+    background-color: #fff;
+    /* color: #fff; */
+    border: 1px solid #1e90ff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.action-button1:hover {
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #1e90ff;
+}
+
+.action-button2:hover {
+    background-color: #1e90ff;
+    color: #ffffff;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.inp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inp .cont {
+    border: 1px solid rgb(158, 158, 158);
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    /* height: 45px; */
+    text-wrap: wrap;
+    width: 300px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.inp .cont p {
+    padding: 10px 10px;
+    margin: 0;
+    color: #000;
+}
+
+/* Responsive CSS */
+
+/* For Tablet Sreen */
+@media only screen and (max-width: 768px) {
+    .inp {
+        display: block;
+
+    }
+
+    .cont {
+        margin-top: 20px;
+    }
+
+}
+
+/* For Surface Pro 7 */
+@media only screen and (max-width: 912px) {
+    .inp {
+        display: block;
+
+    }
+
+    .cont {
+        margin-top: 20px;
+    }
+
+}
+
+/* For Mobile Screens */
+@media only screen and (max-width: 430px) {
+    .content-container {
+        display: block;
+
+    }
+
+    img {
+        margin-top: 25px;
+    }
+
+    h1 {
+        width: max-content;
+    }
+
+
+
+}
